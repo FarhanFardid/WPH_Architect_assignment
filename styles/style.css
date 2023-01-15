@@ -420,6 +420,54 @@ Media Query for Mobile Device Responsiveness
  ----------------*/
 
  @media only screen and (max-width:576px){
-   
+
+   .navbar{
+      flex-direction: column;
+      align-items: center;
+    
+   }
+   .list ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+      
+   }
+   .list ul li {
+      padding: 5px;
+      background-color: aquamarine;
+      border: 2px solid brown;
+      border-radius: 8px;
+      width: 120px;
+      height: auto;
+      text-align: center;
+      margin: 3px;
+     
+   }
+   .list ul li a{
+      font-weight: 600;
+      font-size: 18px;
+   }
+   .banner_content{
+      width:100%;
+      height: 300px;
+      padding-top: 80px;
+      padding-bottom: 10px;
+      
+    }
+    .banner_content h1{
+      font-size: 45px;
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+    .banner_content p{
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+      font-size: 14px;
+      padding: 10px;
+    }
+   .features, .section_list, .facts, .sponsors, .qualities, .footer{
+      display: none;
+   }
    
  }
