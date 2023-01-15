@@ -466,6 +466,23 @@ Media Query for Mobile Device Responsiveness
       font-size: 14px;
       padding: 10px;
     }
+    .primary_btn{
+      width: 40%;
+      height: 50px;
+    }
+
+    
+ .banner_img {
+   width: 100%;
+   height: 500px;
+   padding-top:20px;
+ }
+
+ .banner_img img{
+   width: 95%;
+   padding-left: 10px;
+ }
+
    .features, .section_list, .facts, .sponsors, .qualities, .footer{
       display: none;
    }
