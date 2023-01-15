@@ -223,3 +223,86 @@ padding-top: 50px;
    font-size: 32px;
    font-weight: 700;
 }
+
+/* -------------
+Facts styles
+-------------- */
+.facts{
+   background-color: cadetblue;
+   padding: 70px;
+   border: 2px solid rgb(77, 79, 80);
+   
+}
+
+.facts_container h4{
+   font-size: 35px;
+   font-weight: 700;
+   padding-bottom: 15px;
+
+}
+.facts_container p{
+   font-size: 16px;
+   font-weight: 400;
+   padding-bottom: 30px;
+}
+.cards{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 15px;
+}
+.card{
+   border: 2px solid #FF900E;
+   width: 150px;
+   height: 150px;
+   border-radius: 10px;
+   text-align: center;
+   padding: 5px;
+}
+.card_icon{
+   padding: 5px;
+   margin-top: 5px;
+}
+.card_info{
+   font-size: 30px;
+   font-weight: 600;
+   padding: 4px;
+}
+.card_details{
+   font-size: 16px;
+   font-weight: 400;
+   padding: 5px;
+}
+
+/* -------------
+sponsor section styles
+---------------- */
+.sponsors{
+   padding: 70px;
+}
+.sponsor_content {
+   text-align: center;
+   width: 500px;
+   margin: 0 auto;
+}
+.sponsor_content h3{
+   font-size: 30px;
+   font-weight: 700px;
+   padding-bottom: 15px;
+   
+}
+.sponsor_content p{
+   font-size: 16px;
+   font-weight: 400;
+   padding-top: 10px;
+}
+.sponsor_container{
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   margin: 40px;
+}
+.sponsor img{
+   width: 120px;
+height: 40px;
+color: #424242;
+}
