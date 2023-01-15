@@ -529,27 +529,29 @@ Media Query for Mobile Device Responsiveness
 }
 /* feature list section */
 .section_list{
-    height:auto;
-   width: 100%;
+  
+   height:auto;
    background-color: #727272;
 }
 .feature_container{
-  width: 90%;
-  height:max-content;
+  
+  height:auto;
    grid-template-columns: repeat(1, 1fr);
    padding-top: 10px;
-   margin: 0 auto;
+  
 }
 .features_list{
-   width: 100%;
-  margin:0;
+   padding-left: 10px;
+   width: 100%; 
+   height: auto;
+   margin:0 auto;
   
 }
 .features_list h3{
-   width: 400px;
+  
+   width: 90%;
    height: auto;
    font-size: 30px;
-
    border-left: 3px solid #FF900E;
    padding-left: 5px;
    
@@ -557,21 +559,23 @@ Media Query for Mobile Device Responsiveness
 .features_list>p{
    padding-top: 5px;
    font-size: 14px;
-    width: 380px;
+   width: 90%;
    height: auto; 
-   padding-left: 5px;
+   padding: 10px;
    }
    .feature_list_article{
-      width: 350px;
+      
+      width: 90%;
       height: auto;
       margin:3px;
-      padding: 5px;
+      padding: 10px;
       text-align: left;
       background-color: rgb(242, 233, 233);
       border-radius: 8px;
    }
    .feature_list_img{
-      width:90%;
+      
+      width: 98%;
       height: auto;
       margin-right: 5px;
       padding: 5px;
@@ -579,9 +583,17 @@ Media Query for Mobile Device Responsiveness
    }
    .feature_list_img img{
       width: 100%;
-      margin-top: 0;
+      margin:0 auto;
    }
-      
+   .feature_btn{
+      width: 150px;
+      height: 100px;
+      position: relative;
+      top: -60px;
+      left: -1px;
+   
+   }
+
    /* facts section */
    .facts{
       padding: 10px;
