@@ -688,6 +688,11 @@ Media Query for Mobile Device Responsiveness
 
       margin: 10px;
    }
- 
+ footer{
+   width: 96%;
+ }
+ .footer{
+   width: 100%;
+ }
    
  }
