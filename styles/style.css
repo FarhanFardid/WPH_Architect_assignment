@@ -149,6 +149,12 @@ border-radius: 8px;
 /* ---------------
 Feature list section styles
 ------------------ */
+.section_list{
+   background-color: burlywood;
+   height: 900px;
+   border: 2px solid sienna;
+
+}
 
 .feature_container{
    display: grid;
@@ -175,7 +181,8 @@ padding-top: 50px;
    font-weight: 400;
 }
 .feature_list_article{
-   margin:10px;
+   width: 470px;
+   margin:20px;
    padding: 10px;
    text-align: left;
    background-color: rgb(242, 233, 233);
@@ -191,8 +198,28 @@ padding-top: 50px;
    height: 750px;
    margin-right: 50px;
    padding: 5px;
+   
       
 }
 .feature_list_img img{
   width: 500px;
+}
+.feature_btn{
+   width: 140px;
+   height: 100px;
+   background-color: #FF900E;
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+   border-radius: 8px;
+   border: 1px solid white;
+   position: relative;
+   top: -80px;
+   left: -10px;
+
+
+}
+.f-sp{
+   font-size: 32px;
+   font-weight: 700;
 }
