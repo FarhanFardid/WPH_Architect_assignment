@@ -6,9 +6,11 @@
 body{
    border: 2px solid black;
 }
+
 /*-------------
 banner section styles 
  --------------*/
+
  .banner{
    background-color: rgba(251, 138, 9, 0.122);
    border: 2px solid black;
@@ -30,11 +32,11 @@ banner section styles
  }
  .list ul {
     display: flex;
-  
-
 
  }
- .list ul li {
+
+ .list ul li 
+ {
     list-style-type: none;
  }
  .list ul li a{
@@ -63,18 +65,18 @@ banner section styles
  .banner_content p{
    width: 700px;
    height: 52px;
-    left: 526px;
-      top: 379px;
-    font-style: normal;
+   left: 526px;
+   top: 379px;
+   font-style: normal;
    font-weight: 400;
-    font-size: 16px;
-    padding-bottom: 20px;
+   font-size: 16px;
+   padding-bottom: 20px;
  }
+
  .primary_btn{
-   
    width: 180px;
    height: 64px;
-  left: 870px; 
+   left: 870px; 
    top: 463px;
    background-color: #FF900E;
    color: white;
@@ -84,23 +86,24 @@ banner section styles
    border: 1px solid white;
    
  }
+
  .banner_img {
    width: 900px;
-height: 700px;
-margin: 0 auto;
-padding-top:100px;
-border-radius: 8px;
-
-
+   height: 700px;
+   margin: 0 auto;
+   padding-top:100px;
+   border-radius: 8px;
  }
 
  .banner_img img{
    width: 100%;
    
  }
+
  /* ---------------
  features section styles
  ------------------ */
+
  .features{
    background-color: bisque;
    border: 2px solid brown;
@@ -152,6 +155,7 @@ border-radius: 8px;
 /* ---------------
 Feature list section styles
 ------------------ */
+
 .section_list{
    background-color: burlywood;
    height: 900px;
@@ -162,7 +166,7 @@ Feature list section styles
 .feature_container{
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-padding-top: 50px;
+   padding-top: 50px;
    margin: 0 auto;
    
 }
@@ -230,6 +234,7 @@ padding-top: 50px;
 /* -------------
 Facts styles
 -------------- */
+
 .facts{
    background-color: cadetblue;
    padding: 70px;
@@ -275,7 +280,9 @@ Facts styles
    font-weight: 400;
    padding: 5px;
 }
-/*------- Bonus styles -----*/
+
+/*------- Bonus Transformation styles -----*/
+
 .card:hover{
    transform: scale(1.3);
    background-color: #727272;
@@ -288,6 +295,7 @@ Facts styles
 /* -------------
 sponsor section styles
 ---------------- */
+
 .sponsors{
    padding: 70px;
    background-color:  #fffdfd;
@@ -325,9 +333,11 @@ height: 40px;
 mix-blend-mode: luminosity;
 
 }
+
 /* -----------------
 Bonus section qualities of architect styles
---------------------------- */
+-------------------- */
+
 .qualities{
    padding: 20px;
    background-color: rgb(184, 205, 198);
@@ -380,6 +390,7 @@ Bonus section qualities of architect styles
 /* -----------------
 footer section styles
 ------------------- */
+
 footer{
    width: 98.5%;
    margin: 0 auto;
@@ -401,3 +412,14 @@ footer{
    color: aqua;
    padding: 5px;
 }
+
+/*----------------
+
+Media Query for Mobile Device Responsiveness 
+
+ ----------------*/
+
+ @media only screen and (max-width:576px){
+   
+   
+ }
